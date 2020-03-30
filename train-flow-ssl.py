@@ -7,10 +7,7 @@ from logger import Logger
 import time
 import numpy as np
 from models import flows, distributions
-import matplotlib.pyplot as plt
-from algo.em import init_kmeans2plus_mu
 import warnings
-from sklearn.mixture import GaussianMixture
 import torch.nn.functional as F
 import argparse
 

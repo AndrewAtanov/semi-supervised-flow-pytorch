@@ -8,7 +8,6 @@ from sklearn.cluster import MiniBatchKMeans
 import matplotlib.pyplot as plt
 import warnings
 from models import flows, coupling
-from models.ffjord import odenvp
 
 
 def viz_array_grid(array, rows, cols, padding=0, channels_last=False, normalize=False, **kwargs):
